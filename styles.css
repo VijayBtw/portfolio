@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.title{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    background-color: #ced5da;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.linkedin{
+    transition: all 0.3s linear;
+}
+.linkedin img {
+    width: 30px;
+    margin: 0 10px;
+
+}
+.linkedin:hover{
+    transform: scale(1.5);
+}
+.github{
+    transition: all 0.3s linear;
+    margin-right: 20px;
+}
+.github img {
+    width: 30px;
+    margin: 0 10px;
+
+}
+.github:hover{
+    transform: scale(1.5);
+}
+
+.projects {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.download-resume {
+    text-align: center;
+    margin: 50px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a3551;
+}
+
+.contact{
+    text-align: center;
+    padding: auto;
+    margin: 20px;
+}
